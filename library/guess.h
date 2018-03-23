@@ -18,7 +18,6 @@ public:
 					std::cout << "Sorry! This name has already had. Please enter again.\n";
 					repeat = false;
 				}
-				std::cin.ignore();
 				getline(std::cin, _name[num - 1]); // 0-8
 				for (int i = 0; i < num - 1; i++) {
 					if (_name[num - 1] == _name[i]){
@@ -68,7 +67,7 @@ public:
 			_have_start=false;
 		}
 		std::string temp;		
-		bool legal;
+		bool legal=true;
 		std::cout<<_name[_now]<<"\n";
 		do {
 			if (!legal)

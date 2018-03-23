@@ -21,5 +21,12 @@ public:
 			}
 		}
 	}
-	
+	bool Result(std::string guess){
+		/*
+		type here
+		*/
+	}
+	bool End(){
+
+	}
 };

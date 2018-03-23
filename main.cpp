@@ -30,6 +30,6 @@ int main() {
 			case 3:
 				break;
 			}
-		}
+		}while(password.End());
 	}
 }
